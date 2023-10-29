@@ -4,7 +4,7 @@ import { getResponse, onSubmit } from "./modules/api";
 import './modules/validation'
 import './modules/elements'
 import './modules/modal'
-import { email, phone,name,text,modal,form,main} from "./modules/elements";
+import { email, phone,name,text,form,main} from "./modules/elements";
 
 
 function createResponse(message){
@@ -37,14 +37,7 @@ form.addEventListener('submit',(event)=>{
     form.reset();
 })
 
-const btn=document.querySelector('[data-header-btn]')
 
-modal.addEventListener('click',()=>{
-    modal.classList.toggle('show')
-})
-btn.addEventListener('click',()=>{
-    modal.classList.toggle('show')
-})
 
 
 
