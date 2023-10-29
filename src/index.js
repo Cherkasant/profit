@@ -3,6 +3,7 @@ import './index.scss'
 import { getResponse, onSubmit } from "./modules/api";
 import './modules/validation'
 import './modules/elements'
+import './modules/modal'
 import { email, phone,name,text,modal,form,main} from "./modules/elements";
 
 
