@@ -9,7 +9,6 @@ const textError=document.querySelector('#text + span.error')
 
 Inputmask({"mask":"+999(99)999-99-99",'definitions':{}}).mask('phone')
 
-
 name.addEventListener('input',()=>{
   if (name.validity.valid) {
     nameError.textContent = "";
