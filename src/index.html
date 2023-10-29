@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Itprofit</title>
+</head>
+<body>
+<header>
+    <div class="header">
+        <button type="button" class="btn create" data-header-btn>Create a modal</button>
+    </div>
+</header>
+<main class="container">
+    <h1>ITprofit</h1>
+    <form id="form" >
+        <div class="formInnerBlock">
+            <label for="name" class="label">Name:</label>
+            <input type="text" id="name" name="name" required minlength="4">
+            <span class="error" aria-live="polite"></span>
+
+            <label for="email" class="label">Email:</label>
+            <input type="email" id="email" name="email"  required>
+            <span class="error" aria-live="polite"></span>
+
+            <label for="phone" class="label">Phone number:</label>
+            <input  type="tel" id="phone" name="phone"  placeholder="+375(__)___-__-__" required>
+            <span class="error" aria-live="polite"></span>
+
+            <label for="text" class="label">Message:</label>
+           <textarea rows="10" cols="35" name="text" id="text" placeholder="add text...." required minlength="5"></textarea>
+            <span class="error" aria-live="polite"></span>
+
+            <button type="submit" class="btn">Send</button>
+        </div>
+    </form>
+</main>
+<div class="modal-overlay">
+    <div class="modal">
+        <h1>Modal opened</h1>
+    </div>
+</div>
+
+</body>
+</html>

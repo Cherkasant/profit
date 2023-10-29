@@ -1,0 +1,20 @@
+.btn {
+  font-size: 1.2rem;
+  padding: 0.4em;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: var(--color-white);
+  transition: opacity 0.3s ease-in-out;
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--color-green);
+}
+.btn:hover {
+  opacity: 0.8;
+}
+.btn:active {
+  transform: translateY(1px);
+}
+.create {
+  background-color:var(--color-grey)
+}

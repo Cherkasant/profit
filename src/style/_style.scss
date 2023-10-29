@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  background-color:var(--color-background);
+  color:var(--color-coral);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.formInnerBlock {
+  margin: 0 auto;
+  border-radius: 8px;
+  border:none;
+  box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+  max-width: 320px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap:8px;
+  background-color: var(--color-white);
+}
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  resize: none;
+}
+.errorInput {
+  outline-color: #e64848;
+}
+
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
